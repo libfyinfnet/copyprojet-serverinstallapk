@@ -1,0 +1,29 @@
+{
+  "name": "node-js-express-download-files",
+  "version": "1.0.0",
+  "description": "Node.js Express Download File Rest APis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deb": "nodemon --inspect server.js"
+  },
+  "keywords": [
+    "node js",
+    "upload",
+    "download",
+    "file",
+    "multipart",
+    "rest api",
+    "express",
+    "multer"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.15"
+  }
+}
